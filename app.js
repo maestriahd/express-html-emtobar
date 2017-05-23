@@ -15,6 +15,7 @@ var users = require('./routes/users');
 var gatos = require('./routes/gato');
 var about = require('./routes/about');
 var acerca = require('./routes/acerca');
+var omeka = require('./routes/omeka');
 // **** PARA AGREGAR UNA NUEVA RUTA  ****
 // descomente y cambie los valores de la siguiente línea
 //var NOMBRE_RUTA = require('./routes/ARCHIVO_RUTA');
@@ -45,6 +46,7 @@ app.use('/hola', users);
 app.use('/gatos', gatos);
 app.use('/about', about);
 app.use('/acerca', acerca);
+app.use('/omeka', omeka);
 // **** PARA AG REGAR UNA NUEVA RUTA  ****
 // descomente y cambie los valores de la siguiente línea
 // app.use('/DONDE?', NOMBRE_RUTA);
